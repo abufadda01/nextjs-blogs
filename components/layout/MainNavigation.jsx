@@ -1,11 +1,12 @@
 import React from 'react'
 import Logo from './Logo'
 import Link from 'next/link'
+import clasess from "./main-navigation.module.css"
 
 
 const MainNavigation = () => {
   return (
-    <header>
+    <header className={clasess.header}>
 
         <Link href={"/"}>
             <Logo/>
