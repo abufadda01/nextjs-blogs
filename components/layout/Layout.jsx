@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import MainNavigation from './MainNavigation'
+import MainNavigation from './navigation/MainNavigation'
 
 
 const Layout = ({children}) => {

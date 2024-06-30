@@ -18,7 +18,7 @@ const Hero = () => {
 
       <h1>Laith Abu Fadda</h1>
 
-      <p>Full Stack Web Developer -- MERN Stack</p>
+      <p>Full Stack Web Developer -- MERN STACK</p>
       
     </section>
   )

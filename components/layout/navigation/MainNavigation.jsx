@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from './Logo'
+import Logo from '../logo/Logo'
 import Link from 'next/link'
 import clasess from "./main-navigation.module.css"
 
@@ -9,7 +9,7 @@ const MainNavigation = () => {
     <header className={clasess.header}>
 
         <Link href={"/"}>
-            <Logo/>
+          <Logo/>
         </Link>
         
         <nav>
